@@ -1,13 +1,13 @@
-#include "td/GH.h"
+#include "td/TD.h"
 
 namespace td
 {
 
-CU_SINGLETON_DEFINITION(GH);
+CU_SINGLETON_DEFINITION(TD);
 
 extern void regist_rttr();
 
-GH::GH()
+TD::TD()
 {
 	regist_rttr();
 }

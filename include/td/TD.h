@@ -5,9 +5,9 @@
 namespace td
 {
 
-class GH
+class TD
 {
-    CU_SINGLETON_DECLARATION(GH)
-}; // GH
+    CU_SINGLETON_DECLARATION(TD)
+}; // TD
 
 }

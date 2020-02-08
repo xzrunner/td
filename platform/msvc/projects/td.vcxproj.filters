@@ -37,7 +37,6 @@
     <ClInclude Include="..\..\..\include\td\ParamImpl.h">
       <Filter>dataset\param</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\include\td\GH.h" />
     <ClInclude Include="..\..\..\include\td\Evaluator.h">
       <Filter>eval</Filter>
     </ClInclude>
@@ -56,12 +55,12 @@
     <ClInclude Include="..\..\..\include\td\OpHelper.h">
       <Filter>tools</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\include\td\TD.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\source\ParamImpl.cpp">
       <Filter>dataset\param</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\source\GH.cpp" />
     <ClCompile Include="..\..\..\source\Evaluator.cpp">
       <Filter>eval</Filter>
     </ClCompile>
@@ -80,5 +79,6 @@
     <ClCompile Include="..\..\..\source\OpHelper.cpp">
       <Filter>tools</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\source\TD.cpp" />
   </ItemGroup>
 </Project>

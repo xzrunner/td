@@ -15,7 +15,7 @@
     <ClInclude Include="..\..\..\include\td\Operator.h" />
     <ClInclude Include="..\..\..\include\td\Evaluator.h" />
     <ClInclude Include="..\..\..\include\td\GeoDetail.h" />
-    <ClInclude Include="..\..\..\include\td\GH.h" />
+    <ClInclude Include="..\..\..\include\td\TD.h" />
     <ClInclude Include="..\..\..\include\td\operator\Line.h" />
     <ClInclude Include="..\..\..\include\td\operator\Line.parm.h" />
     <ClInclude Include="..\..\..\include\td\ParamImpl.h" />
@@ -28,7 +28,7 @@
     <ClCompile Include="..\..\..\source\Operator.cpp" />
     <ClCompile Include="..\..\..\source\Evaluator.cpp" />
     <ClCompile Include="..\..\..\source\GeoDetail.cpp" />
-    <ClCompile Include="..\..\..\source\GH.cpp" />
+    <ClCompile Include="..\..\..\source\TD.cpp" />
     <ClCompile Include="..\..\..\source\operator\Line.cpp" />
     <ClCompile Include="..\..\..\source\ParamImpl.cpp" />
     <ClCompile Include="..\..\..\source\RegistRTTR.cpp" />
