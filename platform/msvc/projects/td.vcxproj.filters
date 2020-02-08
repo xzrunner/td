@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="dataset">
+      <UniqueIdentifier>{7a2a5d9c-656c-4b09-aaca-09d1f07635c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{13c365c1-87d7-4d94-999d-3452951a317c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dataset\param">
+      <UniqueIdentifier>{3fe35597-f4ba-4b40-bf66-d6131673d6bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="eval">
+      <UniqueIdentifier>{04d5a3c4-9b59-48b2-a81a-c127d4b71c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dataset\operator">
+      <UniqueIdentifier>{6f6c22eb-ece4-4d0a-b7c1-9b707c08ed93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="operators">
+      <UniqueIdentifier>{45f34ca3-abbf-4628-bb9d-c3281bad8d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="operators\sop">
+      <UniqueIdentifier>{93ef1c1d-03eb-48c1-bd26-f593002f2b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dataset\geometry">
+      <UniqueIdentifier>{b8cfc68b-0b06-4613-b74c-bab82187bb6b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\td\typedef.h" />
+    <ClInclude Include="..\..\..\include\td\Param.h">
+      <Filter>dataset\param</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\td\ParamType.h">
+      <Filter>dataset\param</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\td\ParamImpl.h">
+      <Filter>dataset\param</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\td\GH.h" />
+    <ClInclude Include="..\..\..\include\td\Evaluator.h">
+      <Filter>eval</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\td\operator\Line.h">
+      <Filter>operators\sop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\td\operator\Line.parm.h">
+      <Filter>operators\sop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\td\GeoDetail.h">
+      <Filter>dataset\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\td\Operator.h">
+      <Filter>dataset\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\td\OpHelper.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\source\ParamImpl.cpp">
+      <Filter>dataset\param</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\GH.cpp" />
+    <ClCompile Include="..\..\..\source\Evaluator.cpp">
+      <Filter>eval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\RegistRTTR.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\operator\Line.cpp">
+      <Filter>operators\sop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\GeoDetail.cpp">
+      <Filter>dataset\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Operator.cpp">
+      <Filter>dataset\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\OpHelper.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

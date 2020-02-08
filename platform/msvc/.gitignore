@@ -1,0 +1,8 @@
+td/
+td_test/
+projects/*
+
+!projects/td.vcxproj
+!projects/td.vcxproj.filters
+!projects/td_test.vcxproj
+!projects/td_test.vcxproj.filters
