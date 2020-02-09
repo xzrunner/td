@@ -13,4 +13,4 @@
 
 #undef PARM_OP_NAME
 #undef PARM_OP_CLASS
-#undef PARM_FILEPATH_PARM
+#undef PARM_FILEPATH_H
