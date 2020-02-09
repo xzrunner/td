@@ -1,5 +1,6 @@
-// sop
-#include "td/operator/Line.h"
+#define EXE_FILEPATH "td/op_include_gen.h"
+#include "td/op_regist_cfg.h"
+#undef EXE_FILEPATH
 
 #include <rttr/registration>
 
@@ -17,16 +18,9 @@ rttr::registration::class_<td::Operator>("td::Operator")
 	.method("GetExports", &td::Operator::GetExports)
 ;
 
-// sop
-
-rttr::registration::class_<td::op::Line>("td::line")
-.constructor<>()
-#define PARM_FILEPATH "td/operator/Line.parm.h"
-#define PARM_NODE_CLASS td::op::Line
-#include <dag/rttr_prop_gen.h>
-#undef PARM_NODE_CLASS
-#undef PARM_FILEPATH
-;
+#define EXE_FILEPATH "td/op_rttr_gen.h"
+#include "td/op_regist_cfg.h"
+#undef EXE_FILEPATH
 
 }
 

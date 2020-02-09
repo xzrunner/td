@@ -25,6 +25,9 @@
     <Filter Include="dataset\geometry">
       <UniqueIdentifier>{b8cfc68b-0b06-4613-b74c-bab82187bb6b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="tools\rtti">
+      <UniqueIdentifier>{68067587-2bca-4c27-be50-e376687f544e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\include\td\typedef.h" />
@@ -56,6 +59,15 @@
       <Filter>tools</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\include\td\TD.h" />
+    <ClInclude Include="..\..\..\include\td\op_include_gen.h">
+      <Filter>tools\rtti</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\td\op_regist_cfg.h">
+      <Filter>tools\rtti</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\td\op_rttr_gen.h">
+      <Filter>tools\rtti</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\source\ParamImpl.cpp">
@@ -63,9 +75,6 @@
     </ClCompile>
     <ClCompile Include="..\..\..\source\Evaluator.cpp">
       <Filter>eval</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\source\RegistRTTR.cpp">
-      <Filter>tools</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\source\operator\Line.cpp">
       <Filter>operators\sop</Filter>
@@ -80,5 +89,8 @@
       <Filter>tools</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\source\TD.cpp" />
+    <ClCompile Include="..\..\..\source\RegistRTTR.cpp">
+      <Filter>tools\rtti</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

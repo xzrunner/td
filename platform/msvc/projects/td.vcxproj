@@ -15,6 +15,9 @@
     <ClInclude Include="..\..\..\include\td\Operator.h" />
     <ClInclude Include="..\..\..\include\td\Evaluator.h" />
     <ClInclude Include="..\..\..\include\td\GeoDetail.h" />
+    <ClInclude Include="..\..\..\include\td\op_include_gen.h" />
+    <ClInclude Include="..\..\..\include\td\op_regist_cfg.h" />
+    <ClInclude Include="..\..\..\include\td\op_rttr_gen.h" />
     <ClInclude Include="..\..\..\include\td\TD.h" />
     <ClInclude Include="..\..\..\include\td\operator\Line.h" />
     <ClInclude Include="..\..\..\include\td\operator\Line.parm.h" />
