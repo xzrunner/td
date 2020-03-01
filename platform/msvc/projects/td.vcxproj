@@ -13,7 +13,6 @@
   <ItemGroup>
     <ClInclude Include="..\..\..\include\td\OpHelper.h" />
     <ClInclude Include="..\..\..\include\td\Operator.h" />
-    <ClInclude Include="..\..\..\include\td\Evaluator.h" />
     <ClInclude Include="..\..\..\include\td\GeoDetail.h" />
     <ClInclude Include="..\..\..\include\td\op_include_gen.h" />
     <ClInclude Include="..\..\..\include\td\op_regist_cfg.h" />
@@ -29,7 +28,6 @@
   <ItemGroup>
     <ClCompile Include="..\..\..\source\OpHelper.cpp" />
     <ClCompile Include="..\..\..\source\Operator.cpp" />
-    <ClCompile Include="..\..\..\source\Evaluator.cpp" />
     <ClCompile Include="..\..\..\source\GeoDetail.cpp" />
     <ClCompile Include="..\..\..\source\TD.cpp" />
     <ClCompile Include="..\..\..\source\operator\Line.cpp" />
