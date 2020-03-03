@@ -6,7 +6,7 @@ namespace td
 namespace op
 {
 
-void Line::Execute()
+void Line::Execute(const std::shared_ptr<dag::Context>& ctx)
 {
     if (m_points < 2) {
         m_vals[0] = nullptr;
